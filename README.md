@@ -19,9 +19,7 @@
 
 * Visualizations of SQL queries data
 
-* Example
-
-* ```sql
+ ```sql
   SELECT YEAR(m.release_date) as year, MAX(m.budget) as max_budget
   FROM movie m 
   WHERE m.budget != 0
